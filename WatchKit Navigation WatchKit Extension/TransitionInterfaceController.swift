@@ -1,5 +1,5 @@
 //
-//  InterfaceController.swift
+//  TransitionInterface.swift
 //  WatchKit Navigation
 //
 //  Created by Davis Allie on 7/05/2015.
@@ -10,9 +10,7 @@ import WatchKit
 import Foundation
 
 
-class InterfaceController: WKInterfaceController {
-    
-    @IBOutlet var label: WKInterfaceLabel!
+class TransitionInterface: WKInterfaceController {
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
@@ -30,4 +28,10 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    @IBAction func pushButtonPressed() {
+        
+    }
+    
+    @IBAction func modalButtonPressed() {
+    }
 }
