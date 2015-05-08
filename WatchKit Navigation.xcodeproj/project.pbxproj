@@ -20,6 +20,7 @@
 		602C43461AFB640900714D73 /* WatchKit Navigation WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 602C432E1AFB640900714D73 /* WatchKit Navigation WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		602C43551AFB6D8700714D73 /* TransitionInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C43541AFB6D8700714D73 /* TransitionInterfaceController.swift */; };
 		602C435B1AFB701E00714D73 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C435A1AFB701E00714D73 /* InterfaceController.swift */; };
+		602C435D1AFCC6E100714D73 /* SecondPageInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C435C1AFCC6E100714D73 /* SecondPageInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		602C43421AFB640900714D73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		602C43541AFB6D8700714D73 /* TransitionInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionInterfaceController.swift; sourceTree = "<group>"; };
 		602C435A1AFB701E00714D73 /* InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		602C435C1AFCC6E100714D73 /* SecondPageInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPageInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 			children = (
 				602C43541AFB6D8700714D73 /* TransitionInterfaceController.swift */,
 				602C435A1AFB701E00714D73 /* InterfaceController.swift */,
+				602C435C1AFCC6E100714D73 /* SecondPageInterfaceController.swift */,
 				602C43341AFB640900714D73 /* Images.xcassets */,
 				602C43301AFB640900714D73 /* Supporting Files */,
 			);
@@ -384,6 +387,7 @@
 			files = (
 				602C43551AFB6D8700714D73 /* TransitionInterfaceController.swift in Sources */,
 				602C435B1AFB701E00714D73 /* InterfaceController.swift in Sources */,
+				602C435D1AFCC6E100714D73 /* SecondPageInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

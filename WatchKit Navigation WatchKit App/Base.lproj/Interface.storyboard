@@ -60,14 +60,14 @@
         <!--Second Page-->
         <scene sceneID="h9v-Hi-RwY">
             <objects>
-                <controller identifier="Second Page" id="wiK-Th-D6Y" customClass="InterfaceController" customModule="WatchKit_Navigation_WatchKit_Extension">
+                <controller identifier="Second Page" id="wiK-Th-D6Y" customClass="SecondPageInterfaceController" customModule="WatchKit_Navigation_WatchKit_Extension">
                     <items>
                         <label width="136" height="98" alignment="left" verticalAlignment="center" text="Second Page" textAlignment="center" numberOfLines="2" id="b3y-5Z-JLn">
                             <fontDescription key="font" type="system" pointSize="40"/>
                         </label>
                     </items>
                     <connections>
-                        <outlet property="label" destination="b3y-5Z-JLn" id="jfF-b3-hjB"/>
+                        <outlet property="label" destination="b3y-5Z-JLn" id="uFZ-1R-Klt"/>
                     </connections>
                 </controller>
             </objects>
