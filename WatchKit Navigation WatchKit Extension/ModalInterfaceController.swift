@@ -18,6 +18,9 @@ class ModalInterfaceController: WKInterfaceController {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
+        if let text = context as? String {
+            button.setTitle(text)
+        }
     }
 
     override func willActivate() {
@@ -31,6 +34,6 @@ class ModalInterfaceController: WKInterfaceController {
     }
 
     @IBAction func dismissButtonPressed() {
-        
+        self.dismissController()
     }
 }

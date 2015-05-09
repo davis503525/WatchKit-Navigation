@@ -29,6 +29,6 @@ class HierarchalInterfaceController: WKInterfaceController {
     }
 
     @IBAction func popButtonPressed() {
-        
+        self.popController()
     }
 }

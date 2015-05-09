@@ -29,10 +29,11 @@ class TransitionInterfaceController: WKInterfaceController {
     }
 
     @IBAction func pushButtonPressed() {
-        
+        self.pushControllerWithName("Hierarchal Interface", context: nil)
     }
     
     @IBAction func modalButtonPressed() {
-        
+        self.presentControllerWithName("Modal Interface", context: "Custom Text")
+        //self.presentControllerWithNames(["Modal Interface", "Hierarchal Interface"], contexts: nil)
     }
 }

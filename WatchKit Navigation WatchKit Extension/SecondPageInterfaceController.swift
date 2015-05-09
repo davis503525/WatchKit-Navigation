@@ -18,6 +18,7 @@ class SecondPageInterfaceController: WKInterfaceController {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
+        WKInterfaceController.reloadRootControllersWithNames(["Third Page", "First Page"], contexts: nil)
     }
 
     override func willActivate() {
