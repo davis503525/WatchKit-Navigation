@@ -1,8 +1,8 @@
 //
-//  SecondPageInterfaceController.swift
+//  HierarchalInterfaceController.swift
 //  WatchKit Navigation
 //
-//  Created by Davis Allie on 8/05/2015.
+//  Created by Davis Allie on 9/05/2015.
 //  Copyright (c) 2015 tutsplus. All rights reserved.
 //
 
@@ -10,15 +10,12 @@ import WatchKit
 import Foundation
 
 
-class SecondPageInterfaceController: WKInterfaceController {
+class HierarchalInterfaceController: WKInterfaceController {
 
-    @IBOutlet var label: WKInterfaceLabel!
-    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
-        self.becomeCurrentPage()
     }
 
     override func willActivate() {
@@ -31,4 +28,6 @@ class SecondPageInterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    @IBAction func popButtonPressed() {
+    }
 }
