@@ -21,10 +21,10 @@
             </objects>
             <point key="canvasLocation" x="177" y="328"/>
         </scene>
-        <!--Transition Interface-->
+        <!--Transition Interface Controller-->
         <scene sceneID="oFO-kp-8z9">
             <objects>
-                <controller id="mu9-F8-sX8" customClass="TransitionInterface" customModule="WatchKit_Navigation_WatchKit_Extension">
+                <controller id="mu9-F8-sX8" customClass="TransitionInterfaceController" customModule="WatchKit_Navigation_WatchKit_Extension">
                     <items>
                         <button width="1" alignment="left" title="Hierarchal" id="wic-pi-tIR">
                             <connections>

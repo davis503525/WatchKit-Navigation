@@ -31,5 +31,6 @@ class ModalInterfaceController: WKInterfaceController {
     }
 
     @IBAction func dismissButtonPressed() {
+        
     }
 }

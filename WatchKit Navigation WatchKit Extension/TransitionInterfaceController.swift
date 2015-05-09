@@ -10,7 +10,7 @@ import WatchKit
 import Foundation
 
 
-class TransitionInterface: WKInterfaceController {
+class TransitionInterfaceController: WKInterfaceController {
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
@@ -33,5 +33,6 @@ class TransitionInterface: WKInterfaceController {
     }
     
     @IBAction func modalButtonPressed() {
+        
     }
 }
