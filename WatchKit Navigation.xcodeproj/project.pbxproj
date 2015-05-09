@@ -176,9 +176,9 @@
 		602C432F1AFB640900714D73 /* WatchKit Navigation WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				602C43541AFB6D8700714D73 /* TransitionInterfaceController.swift */,
 				602C435A1AFB701E00714D73 /* InterfaceController.swift */,
 				602C435C1AFCC6E100714D73 /* SecondPageInterfaceController.swift */,
+				602C43541AFB6D8700714D73 /* TransitionInterfaceController.swift */,
 				602C435E1AFDE94800714D73 /* HierarchalInterfaceController.swift */,
 				602C43601AFDE95200714D73 /* ModalInterfaceController.swift */,
 				602C43341AFB640900714D73 /* Images.xcassets */,
@@ -657,6 +657,7 @@
 				602C43261AFB63F800714D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		602C43271AFB63F800714D73 /* Build configuration list for PBXNativeTarget "WatchKit NavigationTests" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +666,7 @@
 				602C43291AFB63F800714D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		602C43471AFB640900714D73 /* Build configuration list for PBXNativeTarget "WatchKit Navigation WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -673,6 +675,7 @@
 				602C43491AFB640900714D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		602C434A1AFB640900714D73 /* Build configuration list for PBXNativeTarget "WatchKit Navigation WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -681,6 +684,7 @@
 				602C434C1AFB640900714D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
